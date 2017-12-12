@@ -77,9 +77,9 @@ item b. We said that we do not care about internal ordering within same counter,
 hence we just swap ranking with that special position. That is, we swap rankings
 between c and b, leading to:
 
-usage counters: 3 3 2 2 1
-assoc item ids: a c b d e
-rankings      : 1 2 3 4 5
+usage counters: 3 3 2 2 1 <br />
+assoc item ids: a c b d e <br />
+rankings      : 1 2 3 4 5 <br />
 
 The counters got updated in a funny way: the left most previous counter got
 "upgraded", such that it belongs now to next group. In this case, left-most
