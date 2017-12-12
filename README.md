@@ -57,9 +57,9 @@ Alright, let us see the main idea with an example. Let us suppose that we have
 the following counters, each one with an associated item id and all sorted
 according to the ranking.
 
-usage counters: 3 2 2 2 1
-assoc item ids: a b c d e
-rankings      : 1 2 3 4 5
+usage counters: 3 2 2 2 1 <br />
+assoc item ids: a b c d e <br />
+rankings      : 1 2 3 4 5 <br />
 
 In the example above, the product a has been used 3 times, hence it has the 
 prestigious ranking of 1. Then we have b,c and d items with counter of 2;
