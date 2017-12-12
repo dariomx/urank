@@ -8,7 +8,7 @@ class Solution:
         self.rank_vid = dict()
         self.cnt_min_rank = defaultdict(lambda: 0)
 
-    def videoViewed(self, vid):
+    def videoViewed(self, vid):á
         if vid in self.vid_cnt:
             old_cnt = self.vid_cnt[vid]
             new_cnt = old_cnt + 1
