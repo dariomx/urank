@@ -1,7 +1,7 @@
 from collections import defaultdict
 
 
-class Solution:
+class UsageRanking:
     def __init__(self):
         self.vid_cnt = defaultdict(lambda: 0)
         self.vid_rank = dict()

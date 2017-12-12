@@ -1,7 +1,7 @@
 # manual test, whose output needs human to evaluate if execution makes sense
 # (need automated tests)
 
-import UsageRanking
+from UsageRanking import UsageRanking
 
 def debug_soln(soln):
     print(soln.vid_cnt)
