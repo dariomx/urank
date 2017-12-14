@@ -5,8 +5,7 @@ usage could have many meanings, for example a product being sold on a e-comm
 page; or a moving being watched on an streaming service. The only thing we care
 about, are the ids of those items and the number of times they are used.
 
-At any given point in time, we offer the following O(1) services; at the cost
-of some extra O(n) memory:
+At any given point in time, we offer the following O(1) services:
 
 1. Given an item id, return its ranking. Rankings start at 1.
 2. Given a ranking, return item id occupying such ranking.
@@ -14,6 +13,9 @@ of some extra O(n) memory:
 and this additional O(k) time service:
 
 3. Return the current top-k products (descending order per ranking).
+
+As you might expect, these nice time complexities come at the cost of using
+extra memory; O(n) more memory to be more precise.
 
 The assumption is that the total number of items to be tracked, is something we
 can keep in a single computer memory. We also assume that user of this utility,
