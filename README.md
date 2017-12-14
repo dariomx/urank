@@ -5,7 +5,8 @@ usage could have many meanings, for example a product being sold on a e-comm
 page; or a moving being watched on an streaming service. The only thing we care
 about, are the ids of those items and the number of times they are used.
 
-At any given point in time, we offer the following O(1) services:
+At any given point in time, we offer the following O(1) services; at the cost
+of some extra O(n) memory:
 
 1. Given an item id, return its ranking. Rankings start at 1.
 2. Given a ranking, return item id occupying such ranking.
