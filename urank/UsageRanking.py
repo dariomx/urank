@@ -42,7 +42,7 @@ class UsageRanking:
         return self.rank_item[rank]
 
     def top_items(self, k):
-        for i in xrange(1, k+1):
+        for i in range(1, k+1):
             if i in self.rank_item:
                 yield self.rank_item[i]
             else:
