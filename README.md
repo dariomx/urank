@@ -141,7 +141,7 @@ hours came up with this solution. I consider it has decent performance, though
 it requires more extensive testing. Feel free to drop me a line if you find
 any issues, or if you want to contribute with more test cases.
 
-Kind regards, 
-dario.mx@gmail.com
+Kind regards.
+
 
 
